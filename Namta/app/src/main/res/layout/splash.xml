@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#1597CE"
+	android:gravity="center"
+	android:id="@+id/myl"
+	android:onClick="vim">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Multiplication"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Table"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:textColor="#ECF4E8"
+		android:textSize="80sp"
+		android:textStyle="bold"
+		android:typeface="serif"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Swipe&gt;&gt;&gt;"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="ORB Apps"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:textColor="#EEEAE4"
+			android:id="@+id/splashTextView1"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

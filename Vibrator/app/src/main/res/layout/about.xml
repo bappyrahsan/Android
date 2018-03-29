@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/coder_photo_description"
+            android:src="@drawable/bappy_150" />
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/developed_by"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/coder_name"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_name" />
+
+        <TextView
+            style="@style/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coder_address" />
+
+        <TextView
+            style="@style/myText"
+            android:id="@+id/fblinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goToFb"
+            android:text="@string/coder_fb_link"
+            android:textColor="@android:color/holo_blue_dark" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@android:color/transparent"
+        android:padding="4dp"
+        android:src="@mipmap/ic_arrow_back"
+        android:contentDescription="" />
+
+</RelativeLayout>

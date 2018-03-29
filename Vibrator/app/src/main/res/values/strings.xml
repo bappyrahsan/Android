@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vibrator</string>
+    <string name="company_name">Codename Synapse</string>
+    <string name="developed_by">Developed By</string>
+    <string name="coder_address">Jessore-7400,Bangladesh</string>
+    <string name="coder_name">Ohidur Rahman Bappy</string>
+    <string name="coder_fb_link">https://www.facebook.com/bappyrahsan</string>
+    <string name="coder_photo_description">Image of the app developer</string>
+</resources>

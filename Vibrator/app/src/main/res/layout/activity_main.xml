@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.orb.vibrator.MainActivity">
+
+    <Button
+        android:id="@+id/btnOn"
+        android:text="Vibrate"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_above="@id/btnOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/time"
+            android:padding="4dp"
+            android:layout_margin="2dp"
+
+            android:inputType="numberSigned"
+            android:hint="Input Milliseconds to Vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="2dp"
+            android:padding="4dp"
+            android:background="@android:color/white"
+            android:shadowColor="@android:color/black"
+            android:shadowRadius="2"
+            android:shadowDx="2"
+            android:textColor="@android:color/black"
+            android:onClick="clearText"
+            android:text="Clear"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageButton
+        android:onClick="showAbout"
+        android:padding="4dp"
+        android:layout_margin="2dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
